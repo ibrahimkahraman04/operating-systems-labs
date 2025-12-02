@@ -1,4 +1,38 @@
-🖥️ Operating Systems Laboratory ExercisesThis repository serves as a comprehensive collection of laboratory exercises for the Operating Systems course. It focuses on low-level system programming, process management, file I/O operations, and inter-process communication (IPC) within the Linux environment.All implementations strictly utilize the C programming language and standard POSIX system calls.📚 Table of ContentsProject OverviewRepository StructureExercise List & TopicsCompilation & ExecutionSystem RequirementsProject OverviewThe primary objective of this project is to provide practical implementations of core Operating System concepts. Each module is designed to demonstrate specific system calls and their distinct behaviors in a Linux kernel environment.Key Concepts CoveredProcess Management: fork(), wait(), exec() family, Zombie and Orphan processes.File Management: Low-level I/O using open(), read(), write(), lseek().IPC (Inter-Process Communication): Implementation of anonymous pipe().Repository StructureThe project strictly follows a modular directory hierarchy. Each exercise is encapsulated in its own directory containing the source code, technical documentation, and the compiled binary.Plaintextoperating-systems-labs/
+
+Markdown# 🖥️ Operating Systems Laboratory Exercises
+
+![Language](https://img.shields.io/badge/Language-C-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg) ![Status](https://img.shields.io/badge/Status-Active-green.svg)
+
+This repository serves as a comprehensive collection of laboratory exercises for the **Operating Systems** course. It focuses on low-level system programming, process management, file I/O operations, and inter-process communication (IPC) within the Linux environment.
+
+All implementations strictly utilize the **C programming language** and standard **POSIX system calls**.
+
+---
+
+## 📚 Table of Contents
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Exercise List & Topics](#exercise-list--topics)
+- [Compilation & Execution](#compilation--execution)
+- [System Requirements](#system-requirements)
+
+---
+
+## Project Overview
+The primary objective of this project is to provide practical implementations of core Operating System concepts. Each module is designed to demonstrate specific system calls and their distinct behaviors in a Linux kernel environment.
+
+### Key Concepts Covered
+* **Process Management:** `fork()`, `wait()`, `exec()` family, Zombie and Orphan processes.
+* **File Management:** Low-level I/O using `open()`, `read()`, `write()`, `lseek()`.
+* **IPC (Inter-Process Communication):** Implementation of anonymous `pipe()`.
+
+---
+
+## Repository Structure
+The project strictly follows a modular directory hierarchy. Each exercise is encapsulated in its own directory containing the source code, technical documentation, and the compiled binary.
+
+```text
+operating-systems-labs/
 │
 ├── README.md               # Project documentation
 │
